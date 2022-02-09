@@ -1,0 +1,436 @@
+
+
+    /* ------cueropo de pagina----- */
+    body{
+        font-family:sans-serif;
+        margin: 0px;
+    }
+
+    /* -------------------------------*/
+    /* ----imagen de encabesado------- */
+    /* -------------------------------*/
+
+    .img_angel{
+        width: 100%;
+    }
+
+    .music {
+        position: absolute;
+        top: 35%;
+        left: 42%;
+        font-size: 120px;
+        color: #fff;
+    }
+
+    /* ------------------------------------------ */
+    /* ----------------  SECTION 1 -------------- */
+    /* ------------------------------------------ */
+
+    .section{
+        padding-left: 100px;
+        padding-right:100px;
+    }
+
+    .mattpalmer{
+        width: 380px;
+        height: 500px;
+        float: right;
+        margin-right: 20%;
+        margin-top: 5%;
+
+    }
+
+    .contenedor-1 .contenido1{
+        float: left;
+        width: 35%;
+        margin-left: 18%;
+    }
+
+
+    .Degradate{
+        font-size:50px;
+    }
+
+
+    .title{
+        margin: 80px;
+    }
+    
+    .parff{
+        font-size: 15px;
+        margin-top: 20px;
+        width: 75%;
+    }
+
+    .div_button{
+        margin-left: 20px;
+    }
+
+    .submit{
+        border: none;
+        background: rgb(223, 88, 73);
+        height: 50px;
+        width: 160px;
+        border-radius: 35px;
+        color: #fff;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    /*--------------------------------*/
+    /*------------parrafo 2-----------*/
+    /*--------------------------------*/
+
+
+    .contenedor-2 .contenido2{
+        float: right;
+        width: 35%;
+        margin-right: 5%;
+
+    }
+
+
+    .Degradate2{
+        font-size:50px;
+        width: 70%;
+    }
+
+
+    .title2{
+        margin: 80px; 
+    }
+
+    .parff2{
+        font-size: 15px;
+        margin-top: 20px ;
+        width: 75%;
+    }
+
+
+    .submit2{
+        border: none;
+        background: rgb(223, 88, 73);
+        height: 50px;
+        width: 160px;
+        border-radius: 35px;
+        color: #fff;
+        font-size: 15px;
+        cursor: pointer;
+
+    }
+
+    .wezleytingey{
+        width: 380px;
+        float: left;
+        height: 500px;
+        margin-left: 21%;
+        margin-top: 5%;
+    }
+
+    /*-----------------------------------*/
+    /*-------------parrfo3---------------*/
+    /*-----------------------------------*/
+
+
+    
+    .contenedor-3 .contenido3{
+        float: right;
+        width: 40%;
+        margin-top: 10%;
+    }
+
+    .Degradate3{
+        font-size:50px;
+        color: #fff;
+        width: 75%;
+    }
+
+    .title3{ 
+        margin-left: 20%;
+    }
+
+    .parff3{
+        font-size: 15px;
+        margin-top: 20px;
+        color: #fff;
+    }
+
+
+    .submit3{
+        border: none;
+        background: rgb(223, 88, 73);
+        height: 50px;
+        width: 160px;
+        border-radius: 35px;
+        color: #fff;
+        font-size: 15px;
+        cursor: pointer;
+
+    }
+
+
+    .article_3{
+        background-image: url(../img/john-raptis.png);
+        background-size: cover;
+        height: 80vh;
+    }
+
+    /*-----------------------------------*/
+    /*-------------footer----------------*/
+    /*-----------------------------------*/
+
+    footer{
+        background: rgb(223, 88, 73);
+    }
+
+    .select_conte{
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+    }
+
+    .contenedor_div{
+        padding: 10px 31% 10px 0;
+        height: 25vh;
+    }
+
+    .list_contenedor{
+        width: 16%;
+        margin-right:60px;
+        float: right;
+    }
+
+    .list_contenedor2{
+        width: 18%;
+        margin-right:60px;
+        float: right;
+    }
+
+    ul{
+        list-style: none;
+        margin: 0 0 0 0;
+    }
+
+    ul li{
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Gill Sans', sans-serif;
+    }
+
+    .contenedor_copy{
+        height: 10vh;
+        font-size: 20px;
+    }
+
+    .copy{
+        margin-right:30% ;
+        width: 30%;
+        color: #fff;
+        float: left;
+    }
+
+    .gmail{
+        color: #fff;
+        float: right;
+
+    }
+
+    /* --------cofiguraciones -----------*/
+
+    .clear{
+        clear: both;
+    }
+
+/*------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------media quarie----------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------*/
+
+
+/*---------responsive (1700px)-----------*/
+
+@media screen and (max-width:1695px){
+    
+    /*-------------------------------------------------------------------*/
+    .contenedor-1 .contenido1{
+        margin-left: 15%;
+    }
+    
+    .mattpalmer{
+        margin-right: 10%;
+    }
+
+    /*-------------------------------------------------------------------*/
+
+    .contenedor-2 .contenido2{
+        margin-right: 1px;
+        width: 45%;        
+    }
+
+    .wezleytingey{
+        margin-left: 14%;
+    }
+    /*------------------------------------------------------------------*/
+    .contenedor-3 .contenido3{
+        margin-top: 2%;
+        margin-right: 4%;
+        width: 45%;
+    }
+
+    .article_3{
+        height: 80vh;
+    }
+
+    .Degradate3{
+        width: 75%;
+    }
+
+    .parff3{
+        width: 75%;
+    }
+
+}
+
+/*----------responsive(1300px)--------------*/
+
+@media screen and (max-width:1300px){
+    /*-------------------------------------------------------------------*/
+    .contenedor-1 .contenido1{
+        margin-left: 10%;
+    }
+    
+    .mattpalmer{
+        width: 380px;
+        height: 500px;
+        float: right;
+        margin-right: 6%;
+    }
+    .music{
+        top: 15%;
+        left: 40%;
+    }
+
+    /*-------------------------------------------------------------------*/
+
+    .contenedor-2 .contenido2{
+        margin-right: unset; 
+        width: 48%;     
+    }
+
+    .wezleytingey{
+        width: 380px;
+        float: left;
+        height: 500px;
+        margin-left: 5%;
+    }
+    /*------------------------------------------------------------------*/
+    .contenedor-3 .contenido3{
+        width: 55%;
+        margin-top: unset;
+        margin-right:unset;
+    }
+
+    .article_3{
+        height: 85vh;
+    }
+
+    .Degradate3{
+        width: 75%;
+    }
+
+    .parff3{
+        width: 75%;
+    }
+
+}
+
+/*----------responsive(800px)--------------*/
+
+@media screen and (max-width:800px){
+    .title{
+        margin: 20px;
+    }
+
+    .music{
+        top: 7%;
+        left: 34%;
+        font-size: 90px;
+    }
+    /*-------------------------------------------------------------------*/
+    .contenedor-1 .contenido1{
+        margin-left: 15%;
+        width: 65%;
+    }
+    
+    .mattpalmer{
+        margin-right: unset;
+        margin-left: 12%;
+        float: left;
+    }
+
+    .Degradate{
+        font-size: 40px;
+    }
+
+    /*-------------------------------------------------------------------*/
+
+    .contenedor-2 .contenido2{
+        margin-right: unset;
+        float: left;
+        margin-left: 15%;
+        width: 75%;     
+    }
+
+    .wezleytingey{
+        float: left;
+        margin-left: 12%;
+    }
+
+    .Degradate2{
+        font-size: 40px;
+    }
+    /*------------------------------------------------------------------*/
+    .contenedor-3 .contenido3{
+        width: 78%;
+        margin-top: unset;
+        margin-right:unset;
+    }
+
+    .article_3{
+        height: 95vh;
+    }
+
+    .Degradate3{
+        font-size: 40px;
+    }
+
+    .parff3{
+        width: 75%;
+    }
+    .select_conte{
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    /*-----------------------------------------------------------------*/
+
+    .list_contenedor{
+        margin-right: 30px;
+        width: 18%;
+    }
+
+    .contenedor_div{
+        width: 83%;
+        height: 35vh;
+        padding: unset;
+        margin-top: 5%;
+    }
+
+    .copy{
+        width: 40%;
+    }
+    
+}
+
+
