@@ -220,7 +220,7 @@
 
     .contenedor_copy{
         height: 10vh;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .copy{
@@ -354,7 +354,7 @@
     .music{
         top: 7%;
         left: 34%;
-        font-size: 90px;
+        font-size: 80px;
     }
     /*-------------------------------------------------------------------*/
     .contenedor-1 .contenido1{
@@ -431,6 +431,92 @@
         width: 40%;
     }
     
+}
+@media screen and (max-width:670px){
+    .title{
+        margin: 20px;
+    }
+
+    .music{
+        top: 7%;
+        left: 34%;
+        font-size: 90px;
+    }
+    /*-------------------------------------------------------------------*/
+    .contenedor-1 .contenido1{
+        margin-left: 15%;
+        width: 65%;
+    }
+    
+    .mattpalmer{
+        margin-right: unset;
+        margin-left: 12%;
+        float: left;
+    }
+
+    .Degradate{
+        font-size: 40px;
+    }
+
+    /*-------------------------------------------------------------------*/
+
+    .contenedor-2 .contenido2{
+        margin-right: unset;
+        float: left;
+        margin-left: 15%;
+        width: 75%;     
+    }
+
+    .wezleytingey{
+        float: left;
+        margin-left: 12%;
+    }
+
+    .Degradate2{
+        font-size: 40px;
+    }
+    /*------------------------------------------------------------------*/
+    .contenedor-3 .contenido3{
+        width: 85%;
+        margin-top: unset;
+        margin-right:unset;
+    }
+
+    .article_3{
+        height: 102vh;
+    }
+
+    .Degradate3{
+        font-size: 40px;
+    }
+
+    .parff3{
+        width: 75%;
+    }
+    .select_conte{
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    /*-----------------------------------------------------------------*/
+
+    .list_contenedor{
+        margin-right: 30px;
+        width: 18%;
+    }
+
+    .contenedor_div{
+        width: 100%;
+        height: 35vh;
+        padding: unset;
+        margin-top: 5%;
+    }
+
+    .copy{
+        width: 40%;
+    }
+
 }
 
 
